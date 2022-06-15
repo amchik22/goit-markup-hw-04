@@ -1,0 +1,172 @@
+:root {
+  --title-color: #000;
+  --text-color: #757575;
+  --primary-bg-color: #fff;
+  --background-team-color: #f5f4fa;
+  --accent-color: #2196f3;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto";
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+img {
+  display: block;
+}
+
+.title {
+  color: var(--title-color);
+}
+
+.text {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+.logo,
+.link,
+.menu {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: var(--accent-color);
+  color: var(--primary-bg-color);
+  border-color: transparent;
+  padding: 10px 32px;
+  border-radius: 3%;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #188ce8;
+  color: var(--primary-bg-color);
+}
+
+.header_menu_item:hover,
+.header_menu_item:focus,
+.info_item:hover,
+.info_item:focus {
+  color: var(--accent-color);
+}
+
+header {
+  border-bottom: 1px solid #ececec;
+}
+
+.header_menu .current {
+  color: var(--accent-color);
+}
+
+.logo {
+  font-family: "raleway";
+  color: var(--title-color);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  margin-right: 93px;
+  padding: 24px 0;
+}
+
+.logo span {
+  color: var(--accent-color);
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+}
+
+.header_menu_list {
+  display: flex;
+  gap: 50px;
+}
+
+.header_menu_item {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--title-color);
+}
+
+.header_info_list {
+  display: flex;
+  gap: 50px;
+  margin-left: auto;
+}
+
+.header_menu_item {
+  padding: 32px 0;
+}
+
+.info_item {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+footer {
+  padding: 60px 0;
+  background-color: #2f303a;
+  display: block;
+}
+
+.footer_logo {
+  color: var(--primary-bg-color);
+  font-family: "raleway";
+  text-decoration: none;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  display: block;
+}
+.footer_logo span {
+  color: var(--accent-color);
+}
+
+address {
+  font-style: normal;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.address_item {
+  text-decoration: none;
+  color: var(--primary-bg-color);
+  display: block;
+}
+
+footer .info_item {
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  display: block;
+  margin-top: 9px;
+}
