@@ -1,6 +1,7 @@
 .solutions {
   background-color: #2f303a;
   max-width: 1600px;
+  margin: 0 auto;
 }
 
 .solutions_overlay {
@@ -137,12 +138,22 @@
 }
 
 .clients {
-  padding: 50px 0;
+  padding: 94px 0;
+}
+
+.clients_title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .clients_wrapper {
   display: flex;
   gap: 30px;
+  margin-top: 50px;
 }
 
 .clients_item {
@@ -154,6 +165,9 @@
   fill: #afb1b8;
 }
 
+.clients_icon {
+  fill: currentColor;
+}
 .clients_item > a {
   display: flex;
   width: 100%;
