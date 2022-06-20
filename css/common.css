@@ -40,7 +40,6 @@ img {
 .list {
   list-style: none;
   text-decoration: none;
-  cursor: pointer;
   margin: 0;
   padding: 0;
 }
@@ -219,6 +218,7 @@ footer .info_item {
 .footer_wrapper {
   display: flex;
   gap: 70px;
+  align-items: baseline;
 }
 
 .footer_text {
@@ -231,12 +231,10 @@ footer .info_item {
 }
 
 footer .social_link {
-  fill: #fff;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
 
-footer .social_link:hover,
-footer .social_link:focus {
-  background-color: var(--accent-color);
+footer .social_link_icon use {
+  fill: #fff;
 }

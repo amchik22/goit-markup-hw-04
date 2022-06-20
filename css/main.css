@@ -187,7 +187,6 @@
 
 .clients_wrapper a:focus,
 .clients_wrapper a:hover {
-  fill: var(--accent-color);
   border-color: var(--accent-color);
   color: var(--accent-color);
 }
