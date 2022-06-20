@@ -217,8 +217,11 @@ footer .info_item {
 
 .footer_wrapper {
   display: flex;
-  gap: 70px;
   align-items: baseline;
+}
+
+.footer_item {
+  margin-right: 70px;
 }
 
 .footer_text {
